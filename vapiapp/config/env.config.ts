@@ -2,8 +2,17 @@ export const envConfig = {
   vapi: {
     apiUrl: process.env.NEXT_PUBLIC_VAPI_API_URL ?? "https://api.vapi.ai",
     token: process.env.NEXT_PUBLIC_VAPI_WEB_TOKEN ?? "1ec9d220-ea8e-4df7-b82c-967f77c59d4e",
+    // token: process.env.NEXT_PUBLIC_VAPI_WEB_TOKEN ?? "1ec9d220-ea8e-4df7-b82c-967f77c59d4e",
   },
 };
+
+// !!! DONT FORGET TO CHANGE ASSISTANCE ID IN USEVAPI
+// shareKey=1ec9d220-ea8e-4df7-b82c-967f77c59d4e&assistantId=1941e8ba-ceac-4e79-95fa-7098a35ee1d1
+
+
+// Private key: 993e0c57-a509-4cd4-8617-dfd31a9084a8
+// Public Key: 1ec9d220-ea8e-4df7-b82c-967f77c59d4e
+// Assistant ID: 1941e8ba-ceac-4e79-95fa-7098a35ee1d1
 
 // new
 //assistant 68557fad-293d-4d3c-9c1b-2a30aac8ae41
